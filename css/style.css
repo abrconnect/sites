@@ -1,0 +1,766 @@
+@import url(./fonts.css);
+
+/* ========= FONTS =========== 
+Graphik-Regular
+Graphik-Semibold
+Roboto-Regular */
+
+/* ========= RESET CSS =========== */
+*,
+body,
+html {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    border: 0;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+.container-1330 {
+    max-width: 1330px;
+    margin: 0 auto;
+}
+
+/* ========= CLASS TEXT-UNDERLINE =========== */
+
+.text-underline {
+    text-decoration: underline;
+}
+
+/* Отдельно для части текста, обёрнутого в span (class="text-underline"), с помощью которого добавил нижнее подчеркивание отдельным словам, указал размер шрифта (font-size). 
+В ином случае почему-то к этому куску, обёрнутому в span, отрабатывается заданое для Reset CSS значение "font-size: 0" */
+.features-description .text-underline,
+.services-second-description .text-underline {
+    font-size: 20px;
+}
+
+.services-description .text-underline {
+    font-size: 18px;
+}
+
+/* ========= END CLASS TEXT-UNDERLINE =========== */
+
+/* ========= HEADER =========== */
+header {
+    padding: 31px 0 24px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+header .container-1330 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    justify-self: left;
+}
+
+.logo-wrap {
+    margin-right: 51px;
+}
+
+.logo-link img {
+    width: 130px;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    margin-right: 42px;
+}
+
+.menu-item-link {
+    font-family: 'Graphik-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.333;
+    color: #000000;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.btn {
+    width: 120px;
+    height: 45px;
+    cursor: pointer;
+    font-family: 'Graphik-Semibold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 2.812;
+}
+
+.btn-login {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin-right: 10px;
+    color: #000000;
+    background: transparent;
+}
+
+.btn-try {
+    background: #FF6336;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+/* ========= END HEADER =========== */
+
+/* ========= INTRO SECTION =========== */
+
+.intro {
+    display: flex;
+    justify-content: center;
+    padding-top: 151px;
+    padding-bottom: 140px;
+}
+
+.intro-heading {
+    margin-top: 10px;
+    font-family: 'Graphik-Semibold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 1.076;
+    color: #000000;
+}
+
+.intro-description {
+    margin: 51px 0;
+    font-family: 'Graphik-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.4;
+    color: #000000;
+}
+
+
+.intro-img {
+    width: 759px;
+}
+
+.intro-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.intro-btn-try {
+    background: #FF6336;
+    border-radius: 0px;
+    width: 160px;
+    height: 60px;
+    cursor: pointer;
+    font-family: 'Graphik-Semibold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 3.75;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+.intro-btn-login {
+    width: 160px;
+    height: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0px;
+    background: transparent;
+    cursor: pointer;
+    font-family: 'Graphik-Semibold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 3.75;
+    color: #000000;
+}
+
+.intro-notice {
+    margin-top: 25px;
+    font-family: 'Graphik-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.666;
+    color: #000000;
+}
+
+.intro-right img {
+    width: 759px;
+}
+
+/* ========= END INTRO SECTION =========== */
+
+/* ========= PARTNERS SECTION =========== */
+
+.partners {
+    padding-top: 108px;
+    padding-bottom: 104px;
+    background: #FF9C7D;
+    margin-bottom: 90px;
+}
+
+.partners-logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.partners-heading {
+    margin-bottom: 70px;
+    text-align: center;
+    font-family: 'Graphik-Semibold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 1.2;
+    color: #000000;
+}
+
+/* ========= END PARTNERS SECTION =========== */
+
+
+/* ========= FEATURES SECTION =========== */
+.features-one .container-1330 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features-heading {
+    font-family: 'Graphik-Semibold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 1.2;
+    color: #000000;
+}
+
+.features-description {
+    font-family: 'Graphik-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #000000;
+    margin: 30px 0;
+}
+
+
+.features-btn-link {
+    font-family: 'Graphik-Semibold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.features-two {
+    margin: 250px 0;
+}
+
+.features-two .container-1330 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.features-two .container-1330 .features-right {
+    margin-right: 150px;
+}
+
+.features-image {
+    width: 632px;
+}
+
+.features-three .container-1330 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.features-four {
+    margin: 250px 0 150px;
+
+}
+
+.features-four .container-1330 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.features-four .container-1330 .features-right {
+    margin-right: 150px;
+}
+
+/* ========= END FEATURES SECTION =========== */
+
+
+/* ========= SERVICES SECTION =========== */
+.services {
+    background: #FFF8E4;
+    padding: 120px 0 150px;
+}
+
+.services-section-heading {
+    text-align: center;
+    font-family: 'Graphik-Semibold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 1.2;
+    color: #000000;
+    margin-bottom: 58px;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    column-gap: 110px;
+    row-gap: 57px;
+
+}
+
+.services-list-item {
+    margin-right: 40px;
+    width: 330px;
+    height: 294px;
+    margin-bottom: 57px;
+    padding-top: 21px;
+}
+
+.services-heading {
+    font-family: 'Graphik-Semibold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.4;
+    color: #000000;
+    margin: 25px 0;
+}
+
+.services-description {
+    font-family: 'Graphik-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.39;
+    color: #000000;
+}
+
+.img-container img {
+    width: 160px;
+}
+
+/* ========= END SERVICES SECTION =========== */
+
+
+/* ========= SERVICES SECTION SECOND =========== */
+.services-second {
+    padding: 154px 0 185px;
+}
+
+.services-second-description {
+    margin: 34px 0 25px;
+    font-family: 'Graphik-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.services-second-list {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.services-second-list-item {
+    width: 407px;
+}
+
+.services-second-heading {
+    font-family: 'Graphik-Semibold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.33;
+    color: #000000;
+    margin-top: 75px;
+}
+
+.services-second-section-heading {
+    text-align: center;
+    font-family: 'Graphik-Semibold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 1.2;
+    color: #000000;
+    margin-bottom: 75px;
+}
+
+.services-second-list-item .img-wrap {
+    height: 201px;
+}
+
+
+.learn-more-link {
+    font-family: 'Graphik-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+/* ========= END SERVICES SECTION SECOND =========== */
+
+
+/* ========= FEEDBACK SECTION =========== */
+.feedback {
+    padding: 53px 0 105px;
+    background: #C9E8F2;
+}
+
+.feedback .container-1330 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback-description {
+    font-family: 'Graphik-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.33;
+    color: #000000;
+    margin-bottom: 23px;
+}
+
+.feedback-name-person {
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.67;
+    color: #000000;
+    margin-bottom: 7px;
+}
+
+.feedback-right img {
+    width: 310px;
+}
+
+/* ========= END FEEDBACK SECTION =========== */
+
+
+/* ========= AWARDS SECTION =========== */
+.awards {
+    padding: 80px 0 84px;
+    background: #DABC98;
+}
+
+.awards .container-1330 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.awards-left * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cake img {
+    width: 176px;
+}
+
+.awards-heading {
+    font-family: 'Graphik-Semibold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 1.43;
+    color: #000000;
+    margin-left: 67px;
+}
+
+.awards-rating {
+    display: flex;
+    justify-content: space-between;
+    border-left: 1px solid #000000;
+    padding: 0 60px 0 71px;
+    align-items: center;
+}
+
+.awards-rating-first {
+    margin-right: 70px;
+}
+
+.row-second {
+    margin: 20px 0 14px;
+}
+
+
+.row-third-text {
+    font-family: 'Graphik-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.67;
+    letter-spacing: 0.75px;
+    color: #000000;
+}
+
+/* ========= END AWARDS SECTION =========== */
+
+
+/* ========= INTEGRATIONS SECTION =========== */
+
+.integrations {
+    text-align: center;
+    padding: 165px 0 163px;
+}
+
+.integrations-heading {
+    font-family: 'Graphik-Semibold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 1.15;
+    color: #000000;
+
+}
+
+.integrations-description {
+    font-family: 'Graphik-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.2;
+    color: #000000;
+
+}
+
+.integrations-image {
+    margin: 25px 0 32px;
+}
+
+.integrations-image img {
+    width: 1023px;
+}
+
+.integrations-btn a {
+    display: block;
+    font-family: 'Graphik-Semibold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 3.75;
+    color: #FFFFFF;
+    width: 193px;
+    height: 60px;
+    background: #FF6336;
+    margin: auto;
+}
+
+/* ========= END INTEGRATIONS SECTION =========== */
+
+
+/* ========= TRY SECTION =========== */
+
+.try {
+    padding: 161px 0 118px;
+    background: #FF9C7D;
+    text-align: center;
+}
+
+.try-heading {
+    font-family: 'Graphik-Semibold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 1.15;
+    color: #000000;
+}
+
+.try-description {
+    margin: 29px 0 54px;
+    font-family: 'Graphik-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.black {
+    background: #000000;
+    font-size: 17px;
+}
+
+/* ========= END TRY SECTION =========== */
+
+
+/* ========= FOOTER =========== */
+.footer {
+    padding: 95px 50px 50px;
+    background: #EEEEEE;
+}
+
+.footer-left-heading {
+    font-family: 'Graphik-Semibold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.25;
+    color: #000000;
+    margin-bottom: 28px;
+}
+
+.footer-left-image img {
+    width: 300px;
+}
+
+.footer-left-logo-wrap img {
+    width: 80px;
+}
+
+.footer-top-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px solid #000000;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 55px;
+}
+
+.menu-column {
+    width: 167px;
+}
+
+.footer-menu-list-item {
+    margin-bottom: 15px;
+}
+
+.footer-menu-heading {
+    font-family: 'Graphik-Semibold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.25;
+    color: #000000;
+    margin-bottom: 21px;
+}
+
+.footer-menu-list-item-link {
+    font-family: 'Graphik-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1;
+    color: #000000;
+}
+
+.footer-left-image {
+    margin-bottom: 31px;
+}
+
+.footer-left-text {
+    font-family: 'Graphik-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #000000;
+    margin: 11px 0 15px;
+}
+
+.footer-left-btn {
+    margin-bottom: 95px;
+}
+
+.footer-left-btn-link {
+    font-family: 'Graphik-Semibold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.footer-bottom {
+    padding-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom-left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom-left-logo {
+    margin-right: 14px;
+}
+
+.footer-bottom-left-logo img {
+    width: 90px;
+}
+
+.footer-bottom-left-text {
+    font-family: 'Graphik-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.25;
+    color: #000000;
+}
+
+.footer-bottom-right-text {
+    font-family: 'Graphik-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.25;
+    color: #000000;
+}
+
+/* ========= END FOOTER =========== */

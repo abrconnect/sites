@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.eot);
+    src: url(../fonts/Roboto-Regular.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/Roboto-Regular.otf) format('otf'),
+        url(../fonts/Roboto-Regular.svg#Roboto-Regular) format('svg'),
+        url(../fonts/Roboto-Regular.ttf) format('truetype'),
+        url(../fonts/Roboto-Regular.woff) format('woff'),
+        url(../fonts/Roboto-Regular.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Graphik-Regular';
+    src: url(../fonts/Graphik-Regular.eot);
+    src: url(../fonts/Graphik-Regular.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/Graphik-Regular.otf) format('otf'),
+        url(../fonts/Graphik-Regular.svg#Graphik-Regular) format('svg'),
+        url(../fonts/Graphik-Regular.ttf) format('truetype'),
+        url(../fonts/Graphik-Regular.woff) format('woff'),
+        url(../fonts/Graphik-Regular.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Graphik-Semibold';
+    src: url(../fonts/Graphik-Semibold.eot);
+    src: url(../fonts/Graphik-Semibold.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/Graphik-Semibold.otf) format('otf'),
+        url(../fonts/Graphik-Semibold.svg#Graphik-Semibold) format('svg'),
+        url(../fonts/Graphik-Semibold.ttf) format('truetype'),
+        url(../fonts/Graphik-Semibold.woff) format('woff'),
+        url(../fonts/Graphik-Semibold.woff2) format('woff2');
+}
